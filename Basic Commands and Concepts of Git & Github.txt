@@ -1,0 +1,47 @@
+Basic Commands and Concepts of Git & Github:
+Installation:
+git apt-get install git: This command install Git using the APT package manager on Debian-based Linux systems.
+Check Git Version:
+
+
+git --version: Verify the installed version of Git on your system.
+Initialising a Repository:
+
+
+mkdir devops_batch_6: Create a new directory named devops_batch_6.
+git init: Initialise a new Git repository within the current directory.
+
+Viewing Directory Contents:
+ls -a: List all files and directories, including hidden ones, in the current directory.
+
+Creating a File:
+touch commands.txt: Create a new file named commands.txt.
+
+Checking Status:
+git status: Display the current status of the repository, indicating untracked and modified files.
+
+Adding Files to Staging Area:
+git add commands.txt: Add commands.txt to the staging area, preparing it for commit.
+
+Committing Changes:
+git commit -m "message": Commit staged changes with a descriptive message, such as "Initial commit".
+
+Viewing Commit History:
+git log: View a chronological log of commits, including commit messages, authors, dates, and commit IDs.
+
+Configuring User Information:
+git config --global user.name "user name": Set the global username for Git.
+git config --global user.email "user email": Set the global email address for Git.
+
+Branching:
+git branch: List all branches in the repository.
+git checkout -b dev: Create a new branch named dev and switch to it.
+git switch master or git checkout master: Switch back to the master branch.
+
+Cloning a Repository:
+git clone url: Clone a remote repository specified by url to the local machine.
+Pulling Changes:
+git pull: Fetch changes from the remote repository and integrate them into the current branch.
+Pushing Changes:
+git push origin main url: Push committed changes to the remote repository specified by url on the main branch.
+These commands and concepts empower DevOps engineers to manage code efficiently, collaborate seamlessly, and maintain version control across development and deployment pipelines.
